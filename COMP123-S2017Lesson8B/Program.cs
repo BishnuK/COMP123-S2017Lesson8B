@@ -23,6 +23,10 @@ namespace COMP123_S2017Lesson8B
             student.Talks();//student can access Talks method also
             Console.WriteLine("\n");
 
+            DomesticStudent domestic = new DomesticStudent("Mary", 19, "123456788B");
+            domestic.Talks();
+            Console.WriteLine("\n");
+
         }
     }
 }

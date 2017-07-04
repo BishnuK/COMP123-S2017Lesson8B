@@ -10,7 +10,7 @@ namespace COMP123_S2017Lesson8B
     /// <summary>
     /// This is the person class
     /// </summary>
-    class Person
+    public class Person
     {
         // private instance variables(fields)
         private string _name;
