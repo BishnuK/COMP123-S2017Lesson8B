@@ -18,6 +18,11 @@ namespace COMP123_S2017Lesson8B
 
             Console.WriteLine("\n");
 
+            Student student = new Student("Bobo", 20, "123456789A");
+            student.Studies();
+            student.Talks();//student can access Talks method also
+            Console.WriteLine("\n");
+
         }
     }
 }
